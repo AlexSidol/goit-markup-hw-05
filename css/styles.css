@@ -685,6 +685,7 @@ ul {
   color: var(--white-text-color);
 }
 
-.overlay-block-in:hover .exemple-overlay {
+.example-link:hover .exemple-overlay,
+.example-link:focus .exemple-overlay {
   transform: translateY(0);
 }
